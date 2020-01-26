@@ -29,6 +29,7 @@ QString bitcoing;
 QString innnewsfeed;
 QString innmarket;
 QString dollarg;
+QString eurog;
 int mode=1;
 int o = 0;
 
