@@ -13,8 +13,8 @@
 
 extern QString bitcoing;
 extern QString dollarg;
-extern QString dnrmarket;
-extern QString dnrnewsfeed;
+extern QString innmarket;
+extern QString innnewsfeed;
 
 namespace Ui {
 class MarketBrowser;
@@ -29,7 +29,7 @@ class MarketBrowser : public QWidget
 public:
     explicit MarketBrowser(QWidget *parent = 0);
     ~MarketBrowser();
-    
+
     void setModel(ClientModel *model);
 
 private:
